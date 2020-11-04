@@ -19,3 +19,13 @@ As for scopes we will add them as we go, I think breaking out the Django apps in
 - folio - any work on the portfolio
 - dependencies - adding to requirements.txt 
 - config - modifying configuration files suck as dockerfiles or gitignores etc 
+
+Another consideration is branching. To keep things simple we are going to follow this model https://nvie.com/posts/a-successful-git-branching-model/.
+This means that after this commit I will create a separate development branch. When we get something half decent I will branch to a release branch.
+Once all the kinks are worked out of that branch (remember bug fixes only no feature work) I will deliver it back to this main/master branch.
+
+Here are some resources for wagtail that we will be using on this project:
+
+- https://learnwagtail.com/
+- https://docs.wagtail.io/en/stable/
+- https://docs.wagtail.io/en/v2.0/editor_manual/
